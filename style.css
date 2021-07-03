@@ -1,0 +1,32 @@
+.cell-container{
+
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+	width: 50vw;
+
+}
+
+.cell{
+
+	height: 40px;
+
+	width: 40px;
+
+	text-decoration: node;
+
+}
+
+body{
+
+	height: 100vh;
+
+	display: grid;
+
+	place-items: center;
+
+
+
+}
